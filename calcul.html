@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale">
+	<title>Exercice 11</title>
+	<script type="text/javascript">
+	function calculate(){
+		var x=parseInt(document.getElementById("first").value);
+		var y=parseInt(document.getElementById("second").value);
+		document.getElementById("answer").value=(x+y);
+		}
+	</script>
+</head>
+<body>
+	<form>
+	Premier :<input id="first" type="text" name="first"><br>
+	Second :<input id="second" type="text" name="second"><br>
+	Résultat :<input id="answer" type="text" name="answer"><br>
+		<input onclick="calculate()" type="button" value="Additionner">
+	</form>
+</body>
+</html>
